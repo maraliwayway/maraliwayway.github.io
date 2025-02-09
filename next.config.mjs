@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: '/maraliwayway.github.io',
+    basePath: '',
 };
 
 export default nextConfig;
