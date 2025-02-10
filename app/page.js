@@ -51,7 +51,7 @@ export default function Home() {
       </nav>
       <main className="flex flex-col gap-8 items-center text-center font-extralight text-lg">
         
-        <h1 className="text-center text-6xl"> Mara Liwayway David </h1>
+        <h1 className="text-center text-6xl mt-40"> Mara Liwayway David </h1>
         <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
 
         <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
