@@ -2,6 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import Image from "next/image";
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 
 export default function Home() {
@@ -36,12 +39,12 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto flex justify-between items-center font-extralight">
           <div className="flex items-center gap-4 text-white">
             {/* Logo or Name */}
-            <a href="#home" className="hover:underline">Mara Liwayway</a>
+            <a href="/" className="hover:underline">Mara Liwayway</a>
           </div>
           <div className="flex items-center gap-8 text-white">
             {/* Navbar Links */}
-            <a href="#home" className="hover:underline">About</a>
-            <a href="#about" className="hover:underline">Experience</a>
+            <a href="#about" className="hover:underline">About</a>
+            <a href="#experience" className="hover:underline">Experience</a>
             <a href="#projects" className="hover:underline">Projects</a>
           </div>
         </div>
@@ -123,14 +126,9 @@ export default function Home() {
           
         </div>
 
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
-        <p> Hi! I'm Mara, a second-year CS student at Simon Fraser University. </p>
+        <About />
+        <Experience />
+        <Projects />
 
       </main>
   
