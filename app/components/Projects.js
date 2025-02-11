@@ -10,12 +10,20 @@ const projects = [
     description: "A motivation app tailored for computer science students, combining a LeetCode tracker, job application organizer, and witty quotes to keep you inspired and on track."
   },
   {
+    title: "Emergency Report System",
+    domain: "Web Development",
+    image: "/emergency.png",
+    github: "https://github.com/biancadimaano/ecomm-website",
+    description: "A new web-based system for Metro Vancouver that allows you to report and view emergency reports."
+  },
+  {
     title: "Try/Catch 2024 Website",
     domain: "Web Development",
     image: "/tc2024.png",
-    github: "https://github.com/your-repo",
+    github: "https://github.com/try-catch2024/try-catch2024",
     description: "Redesigned SFU Women in Computing Science's Try/Catch 2024 website, an annual outreach event for female and non-binary high school students."
   }
+
 ];
 
 const Projects = () => {
