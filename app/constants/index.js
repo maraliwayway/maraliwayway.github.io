@@ -42,7 +42,7 @@ export const PROJECTS = [
     },
     {
       year: "May 2024 - Present",
-      role: "Co-events Coordinator",
+      role: "Co-Events Coordinator",
       company: "SFU Women in Computing Science",
       description: [
         "Elected to executive team for 2024-2025, demonstrating strong peer recognition. Planned and executed 3 welcome events for 30+ new students in one week. Managed budgets, logistics, and volunteers for successful event operations."
@@ -78,7 +78,7 @@ export const PROJECTS = [
     },
     {
       year: "July 2024 - September 2024",
-      role: "FAS Hive Welcome Leader",
+      role: "FAS HIVE Welcome Leader",
       company: "SFU Student Services",
       description: [
         "Led a campus tour and supported faculty info sessions. Moderated a Canvas course for 60 new students, responding to comments within 48 hours. Planned and ran events tailored to student interests."

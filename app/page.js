@@ -157,8 +157,9 @@ export default function Home() {
         </motion.div>
 
         <About />
-        <Experience />
         <Projects />
+        <Experience />
+
       </main>
     </div>
   );
