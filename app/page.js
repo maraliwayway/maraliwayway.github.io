@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import { motion } from 'framer-motion';
 
+
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -27,7 +28,11 @@ export default function Home() {
   }, []);
 
   return (
+
+    
     <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      
+      
 
       <motion.nav
         className={`w-full p-4 fixed top-0 left-0 z-50 shadow-md transition-all duration-300 ease-in-out ${
