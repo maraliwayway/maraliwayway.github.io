@@ -18,7 +18,7 @@ const About = () => {
                 width={900}
                 height={900}
                 quality={100}
-                className="rounded-lg border border-gray-500"
+                className="rounded-lg border border-gray-500 transition-transform hover:scale-[1.02] hover:shadow-2xl"
               />
                 <p className="text-center text-gray-500 text-sm mt-2">Mara volunteering as a C# Unity workshop volunteer </p>
 

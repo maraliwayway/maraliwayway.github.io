@@ -28,7 +28,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-24 text-white">
+    <section id="projects" className="pt-24 text-white lg:mb-40">
       <div className="">
         <h1 className="mb-24 text-center text-5xl text-extralight sm:mt-20 md:mt-0">Projects</h1>
         <div className="space-y-12">
