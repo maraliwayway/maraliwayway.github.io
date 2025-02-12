@@ -7,6 +7,14 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import { motion } from 'framer-motion';
 
+const copyEmailToClipboard = () => {
+  navigator.clipboard.writeText("mld18@sfu.ca").then(() => {
+    alert("Mara's email has been copied to your clipboard!"); 
+  }).catch(err => {
+    console.error("Failed to copy email: ", err);
+  });
+};
+
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
@@ -115,11 +123,9 @@ export default function Home() {
             Linkedin
           </motion.a>
 
-          <motion.a
+          <motion.button
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="mailto:mld18@sfu.ca"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={copyEmailToClipboard}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 2 }}
@@ -132,7 +138,7 @@ export default function Home() {
               height={16}
             />
             Email
-          </motion.a>
+          </motion.button>
         </div>
 
         <motion.div
