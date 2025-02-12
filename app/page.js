@@ -46,19 +46,17 @@ export default function Home() {
       >
         <div className="max-w-screen-xl mx-auto flex justify-between items-center font-extralight text-lg">
           <div className="flex items-center gap-4 text-white">
-            {/* Logo or Name */}
             <a href="/" className="hover:underline">Mara Liwayway</a>
           </div>
           <div className="flex items-center gap-8 text-white">
-            {/* Navbar Links */}
             <a href="#about" className="hover:underline">About Me</a>
-            <a href="#experience" className="hover:underline">Experience</a>
             <a href="#projects" className="hover:underline">Projects</a>
+            <a href="#experience" className="hover:underline">Experience</a>
           </div>
         </div>
       </motion.nav>
 
-      <main className="flex flex-col gap-8 pt-40 font-extralight text-lg">
+      <main className="flex flex-col gap-10 pt-40 font-extralight text-lg">
         
         <motion.h1
           className="text-center text-7xl mt-20"
@@ -75,7 +73,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Hi! I'm Mara, a second-year CS student at Simon Fraser University.
+          Aspiring software developer passionate about teaching, outreach, and coding.
         </motion.p>
 
         <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
@@ -144,7 +142,7 @@ export default function Home() {
           transition={{ duration: 1, delay: 2.5 }}
         >
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#999] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            className="mb-40 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#999] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
             href="/resume.pdf"
             download="Mara_Liwayway_David_Resume.pdf"  // Specify the filename for the downloaded file
             target="_blank"
@@ -161,6 +159,7 @@ export default function Home() {
           </a>
         </motion.div>
 
+        
         <About />
         <Projects />
         <Experience />

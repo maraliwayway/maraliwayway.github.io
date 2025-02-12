@@ -3,8 +3,10 @@ import { COMMUNITY_INVOLVEMENT } from "../constants";
 
 const Experience = () => {
   return (
-    <div className="pb-20 pt-20">
-      <h2 className="my-20 text-center text-5xl text-extralight">
+
+    <section id="experience" className="py-24">
+    <div>
+      <h2 className="mb-24 text-center text-5xl text-extralight">
         Work Experience
       </h2>
 
@@ -34,7 +36,7 @@ const Experience = () => {
       </div>
 
       <h2 className="my-20 text-center text-5xl text-extralight mt-40">
-        Volunteer Experience
+        Community Involvement Experience
       </h2>
 
       <div>
@@ -62,6 +64,7 @@ const Experience = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 
