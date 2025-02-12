@@ -14,23 +14,23 @@ const projects = [
     domain: "Web Development",
     image: "/emergency.png",
     github: "https://github.com/biancadimaano/ecomm-website",
-    description: "A new web-based system for Metro Vancouver that allows you to report and view emergency reports."
+    description: "A web-based system for Metro Vancouver that allows you to report and view emergencies."
   },
   {
     title: "Try/Catch 2024 Website",
     domain: "Web Development",
     image: "/tc2024.png",
     github: "https://github.com/try-catch2024/try-catch2024",
-    description: "Redesigned SFU Women in Computing Science's Try/Catch 2024 website, an annual outreach event for female and non-binary high school students."
+    description: "Redesigned SFU Women in Computing Science's website for Try/Catch 2024, an annual outreach event for female and non-binary high school students."
   }
 
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20text-white">
-      <div className="max-w-6xl mx-auto px-6">
-        <h1 className="text-5xl ftext-center mb-16 text-center">Projects</h1>
+    <section id="projects" className="pt-24 text-white">
+      <div className="">
+        <h1 className="mb-24 text-center text-5xl text-extralight sm:mt-20 md:mt-0">Projects</h1>
         <div className="space-y-12">
           {projects.map((project, index) => (
             <div 
@@ -47,7 +47,7 @@ const Projects = () => {
               <div className="p-6">
                 <h2 className="text-3xl ">{project.title}</h2>
                 <p className="text-sm text-gray-400 mt-1">{project.domain}</p>
-                <p className="mt-4 ">{project.description}</p>
+                <p className="mt-4">{project.description}</p>
                 <Link 
                   href={project.github} 
                   target="_blank"

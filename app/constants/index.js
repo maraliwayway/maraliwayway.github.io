@@ -1,19 +1,11 @@
 
-export const PROJECTS = [
-    {
-      img: "https://static.wikia.nocookie.net/pokemon/images/0/0d/0025PPikachu.png/revision/latest/scale-to-width/360?cb=20240714164138",
-      title: "emergency report system",
-      technologies: ["leaflet api", "javascript", "html", "css"],
-      projectLink: ""
-    }
-  ]
   export const EXPERIENCES = [
     {
       year: "May 2024 - Present",
       role: "Coding Instructor",
       company: "SFU Science Alive",
       description: [
-        "Taught a week-long Artificial Intelligence summer camp to students grades 6 to 12 using Javascript. Led STEM-based workshops using Javascript, HTML/CSS, Figma, and block-based programming. Developed curriculum write ups for coding workshops targeted towards middle school and high school students."
+        "Taught a week-long AI summer camp to students grades 6 to 12 using JavaScript. Led STEM-based workshops using JavaScript, HTML, CSS, Figma, and block-based programming. Developed curriculum write ups for coding workshops targeted towards middle school and high school students."
       ],
       technologies: ["JavaScript", "HTML", "CSS", "Figma"],
     },
@@ -22,7 +14,7 @@ export const PROJECTS = [
         role: "Coding Instructor",
         company: "Code Ninjas",
         description: [
-          "Taught week-long STEM-based coding camps to students aged 5 to 14. Assisted students with debugging their Javascript and block-based code. Managed conflicts between students, promoting fairness and maintaining a positive learning environment."
+          "Taught week-long STEM-based coding camps to students aged 5 to 14. Assisted students with debugging their JavaScript and block-based code. Managed conflicts between students, promoting fairness and maintaining a positive learning environment."
         ],
         technologies: ["JavaScript", "Lua"],
       },
@@ -34,9 +26,9 @@ export const PROJECTS = [
     {
       year: "January 2025 - Present",
       role: "FAS Student Ambassador",
-      company: "SFU",
+      company: "SFU Faculty of Applied Sciences",
       description: [
-        "Completed ambassador training to represent fas in recruitment and outreach activities effectively."
+        "Completed ambassador training to represent SFU's Faculty of Applied Sciences in recruitment and outreach activities effectively. Led campus tours for prospective university students."
       ],
       technologies: [],
     },
@@ -54,7 +46,7 @@ export const PROJECTS = [
       role: "Student Volunteer",
       company: "SFU Women in Computing Science",
       description: [
-        "Redesigned try/catch 2024 website, improving accessibility for 100+ sign-ups. Led 4 designers to create materials for networking night, drawing 70 attendees. Debugged C# unity code for 40 try/catch 2023 attendees."
+        "Redesigned the Try/Catch 2024 website, improving accessibility for 100+ sign-ups. Led 4 designers to create materials for Networking Night 2024, drawing 70 attendees. Debugged C# code in Unity for 40 Try/Catch 2023 attendees."
       ],
       technologies: [],
     },
