@@ -150,7 +150,7 @@ export default function Home() {
           <a
             className="mb-40 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#999] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
             href="/resume.pdf"
-            download="Mara_Liwayway_David_Resume.pdf"  // Specify the filename for the downloaded file
+            download=""  // Specify the filename for the downloaded file
             target="_blank"
             rel="noopener noreferrer"
           >
